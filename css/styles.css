@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+.header{
+	height: 65px;
+	padding: 0px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.header a{
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 22px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	height: 21px;
+}
+
+.header a:hover {
+  	background: #ddd;
+  	color: black;
+}
+.active {
+  	background-color: #04AA6D;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.hed{
+	margin-left: 60px; 
+	margin-top: -52px; 
+	font-size: 25px;
+	cursor: pointer;
+}
+.hedicon{
+	padding: 8px;
+	cursor: pointer;
+}
+.tech-image {
+  	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/tech7.gif");
+  	height: auto;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-top: 65px;
+  	width: 100%;
+ }
+ .art{
+ 	color: white;
+	font-size: 3rem;
+    text-transform: ;
+    font-weight: 500;
+ 	text-align: center;
+ 	padding: 80px;
+ 	
+ }
+ .art center{
+ 	font-size: 30px;
+ 	margin-right: 90px;
+ 	margin-left: 90px;
+ 	color: lightgray;
+ }
+ .button1 {
+  	width: 150px;
+  	background-color: #8BC34A;
+  	color: white;
+  	padding: 14px;
+  	margin: 0px 5px;
+  	border: none;
+  	border-radius: 5px;
+  	cursor: pointer;
+}
+.button2 {
+  	width: 100px;
+  	background-color: #039BE5;
+  	color: white;
+  	padding: 14px;
+  	margin: 0px 10px;
+  	border: none;
+  	border-radius: 5px;
+  	cursor: pointer;
+}
+button:hover{
+	background-color: #111;
+}
+.sec2{
+	padding: 60px;
+	height: auto;
+	background-color: #F2F2F2;
+	justify-content: space-around;
+}
+.footer{
+	height: auto;
+	background-color: black;
+	color: white;
+	padding: 40px;
+}
+.flx{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flmar{
+	margin-right: 50%;
+}
+.rgt{
+	float: right;
+	margin-top: -135px;
+	margin-right: 25px;
+}
+.copy{
+	text-align: right; 
+	font-size: 13px; 
+	color: gray; 
+	width: 250px;
+}
+.iconr{
+	text-align:right
+}
+.tcard{
+  	margin: auto;
+  	border-radius: 5px;
+  	background-color: white;
+  	padding: 20px;
+  	width: 300px;
+  	height: auto;
+  	cursor: pointer;
+ }
+ .round{
+  	border-radius: 50%;
+ }
+.det{
+	float: right;
+	margin-right: 75px;
+	margin-top: 0px;
+	width: 150px;
+}
+.det1{
+	float: right;
+	margin-right: 65px;
+	padding: 3px;
+	width: 150px;
+	margin-top: ;
+}
+.img{
+	margin: auto;
+	cursor: pointer;
+}
+.con{
+	margin: auto;
+	
+}
+.con ul{
+	list-style-type: none;
+	color: gray;
+	font-size: 13px;
+	justify-content: space-around;
+}
+.con ul li{
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.fa {
+  	padding: 0px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 0px 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-facebook {
+  
+  color: white;
+}
+.fa-vimeo {
+  color: white;
+}
+
+.clr{
+	clear: both;
+}
+@media only screen and (max-width: 800px){
+	.header{
+		position: relative;
+		height: 310px;
+	}
+	.header a{
+		float: none;
+		
+	}
+	.fr,.fl{
+		float: none;
+	}
+	.tech-image{
+		margin-top: -50px;
+	}
+	.flx{
+		flex-direction: row;
+	}
+	.tcard{
+		margin-bottom: 20px;
+	}
+	.img{
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+	.flmar{
+		margin-right: 0;
+	}
+	.rgt{
+		float: none;
+		margin-top: 0px;
+	}
+	.copy{
+		text-align: center;
+		width: 100%;
+		margin-top: -40px;
+	}
+	.iconr{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+}
+@media only screen and (min-width:800px){
+	.tcard{
+		margin-bottom: 40px;
+	}
+}
